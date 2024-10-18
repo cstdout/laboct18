@@ -30,9 +30,9 @@ int main() {
         for(int j = 0; i != j && j < n; ++j)
         {
             std::swap(mat[i][j], mat[j][i]);
-            std:: cout << mat[i][j] << ' ';
+            
         }
-        std::cout << std::endl;
+
     }
     for(int i = 0; i < n; ++i)
     {
